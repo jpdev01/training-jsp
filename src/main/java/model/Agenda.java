@@ -39,9 +39,13 @@ public class Agenda {
     }
 
     public void salvar(Contato c){
+        if (c == null){
+            c = new Contato();
+        }
         if(c.getId() == null){
             c.setId(gerarId());
         }
+        contatos.put(c.getId(), c);
     }
 
     public static void setInstance(Agenda instance) {
@@ -72,5 +76,17 @@ public class Agenda {
 
     public void setProximoId(int proximoId) {
         this.proximoId = proximoId;
+    }
+
+    public Contato carregar(int id){
+        return contatos.get(id);
+    }
+
+    public void excluir(int id){
+        contatos.remove(id);
+    }
+
+    public int gerarId(){
+        return proximoId++;
     }
 }
