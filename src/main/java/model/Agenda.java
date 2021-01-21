@@ -1,7 +1,7 @@
 package model;
 
+import javax.servlet.annotation.WebServlet;
 import java.util.*;
-
 public class Agenda {
 
     public class NameComparator implements Comparator<Contato>{
