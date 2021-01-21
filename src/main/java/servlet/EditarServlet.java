@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet("/Contato/Editar/*")
+@WebServlet("agenda-edit")
 public class EditarServlet extends HttpServlet {
 
 

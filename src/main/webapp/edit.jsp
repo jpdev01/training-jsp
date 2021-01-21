@@ -3,7 +3,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
-    <title>Contatos</title>
+    <title>Editar contato</title>
 </head>
 <body>
 <form action="agenda-save" method="post">
