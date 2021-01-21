@@ -22,6 +22,6 @@ public class ListarServlet extends HttpServlet {
         Set<Contato> contatos = agenda.getContatos();
         req.setAttribute("contatos", contatos);
 
-        req.getRequestDispatcher("/listar.jsp").forward(req, resp);
+        req.getRequestDispatcher("/edit.jsp").forward(req, resp);
     }
 }

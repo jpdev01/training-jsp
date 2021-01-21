@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet("/Agenda/Salvar/*")
+@WebServlet(name = "agenda/salvar", value = "/agenda-save")
 public class SalvarServlet extends HttpServlet {
 
     @Override

@@ -6,7 +6,7 @@
     <title>Contatos</title>
 </head>
 <body>
-<form action="Agenda/Salvar" method="post">
+<form action="agenda-save" method="post">
     <c:if test="${contato.id != null}">
         <input type="hidden" name="id" value="${contato.id}">
     </c:if>
