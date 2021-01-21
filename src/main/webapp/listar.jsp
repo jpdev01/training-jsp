@@ -6,7 +6,7 @@
     <title>Contatos</title>
 </head>
 <body>
-<form action="Salvar" method="post">
+<form action="Agenda/Salvar" method="post">
     <c:if test="${contato.id != null}">
         <input type="hidden" name="id" value="${contato.id}">
     </c:if>
@@ -14,6 +14,15 @@
         <tr>
             <td>Nome:</td>
             <td><input type="text" name="name" value="${contato.name}"></td>
+        </tr>
+        <tr>
+            <td>Telefone:</td>
+            <td><input type="text" name="telephone" value="${contato.telephone}"></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="right">
+                <input type="submit" value="Salvar">
+            </td>
         </tr>
     </table>
 </form>

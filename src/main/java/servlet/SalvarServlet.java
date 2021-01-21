@@ -24,6 +24,6 @@ public class SalvarServlet extends HttpServlet {
         Agenda agenda = Agenda.getInstance();
         agenda.salvar(c);
 
-        resp.sendRedirect("/Agenda/Listar");
+        resp.sendRedirect("agenda-list");
     }
 }
