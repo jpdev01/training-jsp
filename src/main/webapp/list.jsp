@@ -21,20 +21,32 @@
     <tr>
         <td>Nome</td>
         <td>Telefone</td>
+        <td></td>
+        <td></td>
     </tr>
     <c:choose>
         <c:when test="${empty(contatos)}">
             <tr>
-                <td colspan="2">Nenhum usuário encontrado</td>
+                <td colspan="4">Nenhum usuário encontrado</td>
             </tr>
         </c:when>
         <c:otherwise>
-            <c:foreach var="this" items="${contatos}">
+            <c:forEach var="this" items="${contatos}">
                 <c:url var="editarContatoUrl" value="agenda-edit">
                     <c:param name="id">${this.id}</c:param>
                 </c:url>
 
-            </c:foreach>
+                <c:url var="excluirContatoUrl" value="agenda-exluir">
+                    <c:param name="id">${this.id}</c:param>
+                </c:url>
+
+                <td align="center">${this.name}</td>
+                <td align="center">${this.telephone}</td>
+                <td align="center"><a href="${editarContatoUrl}"></a></td>
+                <td align="center"><a href="${excluirContatoUrl}"></a></td>
+
+
+            </c:forEach>
         </c:otherwise>
     </c:choose>
 </table>
