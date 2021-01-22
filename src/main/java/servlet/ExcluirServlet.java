@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet("/Contato/Excluir/*")
+@WebServlet("/agenda-exluir")
 public class ExcluirServlet extends HttpServlet {
 
 
