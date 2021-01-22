@@ -15,8 +15,28 @@
 <c:url var="novoContato" value="agenda-edit"></c:url>
 
 <a href="${novoContato}">Adicionar novo contato</a>
-<c:if test="${contato.id != null}">
-    <input type="hidden" name="id" value="${contato.id}">
-</c:if>
+
+
+<table width="100%" border="1">
+    <tr>
+        <td>Nome</td>
+        <td>Telefone</td>
+    </tr>
+    <c:choose>
+        <c:when test="${empty(contatos)}">
+            <tr>
+                <td colspan="2">Nenhum usuário encontrado</td>
+            </tr>
+        </c:when>
+        <c:otherwise>
+            <c:foreach var="this" items="${contatos}">
+                <c:url var="editarContatoUrl" value="agenda-edit">
+                    <c:param name="id">${this.id}</c:param>
+                </c:url>
+
+            </c:foreach>
+        </c:otherwise>
+    </c:choose>
+</table>
 </body>
 </html>
