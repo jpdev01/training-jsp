@@ -31,20 +31,20 @@
             </tr>
         </c:when>
         <c:otherwise>
-            <c:forEach var="this" items="${contatos}">
+            <c:forEach var="c" items="${contatos}">
                 <c:url var="editarContatoUrl" value="agenda-edit">
-                    <c:param name="id">${this.id}</c:param>
+                    <c:param name="id" value="${c.id}"></c:param>
                 </c:url>
 
                 <c:url var="excluirContatoUrl" value="agenda-exluir">
-                    <c:param name="id">${this.id}</c:param>
+                    <c:param name="id" value="${c.id}"></c:param>
                 </c:url>
-
-                <td align="center">${this.name}</td>
-                <td align="center">${this.telephone}</td>
-                <td align="center"><a href="${editarContatoUrl}"></a></td>
-                <td align="center"><a href="${excluirContatoUrl}"></a></td>
-
+                <tr>
+                    <td align="center">${c.name}</td>
+                    <td align="center">${c.telephone}</td>
+                    <td align="center"><a href="${editarContatoUrl}"></a></td>
+                    <td align="center"><a href="${excluirContatoUrl}"></a></td>
+                </tr>
 
             </c:forEach>
         </c:otherwise>
