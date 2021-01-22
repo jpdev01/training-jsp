@@ -27,7 +27,7 @@
     <c:choose>
         <c:when test="${empty(contatos)}">
             <tr>
-                <td colspan="4">Nenhum usuário encontrado</td>
+                <td colspan="4" align="center">Nenhum usuário encontrado</td>
             </tr>
         </c:when>
         <c:otherwise>
