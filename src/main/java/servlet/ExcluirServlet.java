@@ -21,6 +21,6 @@ public class ExcluirServlet extends HttpServlet {
             Agenda agenda = Agenda.getInstance();
             agenda.excluir(id);
         }
-        resp.sendRedirect("/Agenda/Listar");
+        resp.sendRedirect("agenda-list");
     }
 }

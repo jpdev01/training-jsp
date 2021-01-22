@@ -42,8 +42,8 @@
                 <tr>
                     <td align="center">${c.name}</td>
                     <td align="center">${c.telephone}</td>
-                    <td align="center"><a href="${editarContatoUrl}"></a></td>
-                    <td align="center"><a href="${excluirContatoUrl}"></a></td>
+                    <td align="center"><a href="${editarContatoUrl}">Editar</a></td>
+                    <td align="center"><a href="${excluirContatoUrl}">Excluir</a></td>
                 </tr>
 
             </c:forEach>

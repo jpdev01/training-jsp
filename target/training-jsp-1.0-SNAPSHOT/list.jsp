@@ -39,12 +39,12 @@
                 <c:url var="excluirContatoUrl" value="agenda-exluir">
                     <c:param name="id" value="${c.id}"></c:param>
                 </c:url>
-
-                <td align="center">${c.name}</td>
-                <td align="center">${c.telephone}</td>
-                <td align="center"><a href="${editarContatoUrl}"></a></td>
-                <td align="center"><a href="${excluirContatoUrl}"></a></td>
-
+                <tr>
+                    <td align="center">${c.name}</td>
+                    <td align="center">${c.telephone}</td>
+                    <td align="center"><a href="${editarContatoUrl}">Editar</a></td>
+                    <td align="center"><a href="${excluirContatoUrl}">Excluir</a></td>
+                </tr>
 
             </c:forEach>
         </c:otherwise>
