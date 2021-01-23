@@ -17,11 +17,6 @@
 
 <a href="${novoContato}">Adicionar novo contato</a>
 
-<c:if test="${empty(contatos)}">
-    <%
-        Set<Contato> contatos = (Set<Contato>) request.getAttribute("contatos");
-    %>
-</c:if>
 <table width="100%" border="1">
     <tr>
         <td>Nome</td>
