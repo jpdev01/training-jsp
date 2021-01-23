@@ -11,5 +11,6 @@
 <a href="hello-servlet">Hello Servlet</a>
 <a href="agenda-edit">Novo contato</a>
 <a href="agenda-list">Lista de contatos</a>
+<a href="exception-test">Testar página de erro</a>
 </body>
 </html>
