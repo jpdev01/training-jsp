@@ -8,9 +8,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>Página não encontrada</title>
 </head>
 <body>
-
+<h3>A página solicitada não foi encontrada!</h3>
 </body>
 </html>
