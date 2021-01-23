@@ -1,4 +1,5 @@
-<%--
+<%@ page import="model.Contato" %>
+<%@ page import="java.util.Set" %><%--
   Created by IntelliJ IDEA.
   User: jptru
   Date: 20/01/2021
@@ -15,7 +16,6 @@
 <c:url var="novoContato" value="agenda-edit"></c:url>
 
 <a href="${novoContato}">Adicionar novo contato</a>
-
 
 <table width="100%" border="1">
     <tr>

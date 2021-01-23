@@ -1,4 +1,5 @@
-<%--
+<%@ page import="model.Contato" %>
+<%@ page import="java.util.Set" %><%--
   Created by IntelliJ IDEA.
   User: jptru
   Date: 20/01/2021
@@ -16,7 +17,11 @@
 
 <a href="${novoContato}">Adicionar novo contato</a>
 
-
+<c:if test="${empty(contatos)}">
+    <%
+        Set<Contato> contatos = (Set<Contato>) request.getAttribute("contatos");
+    %>
+</c:if>
 <table width="100%" border="1">
     <tr>
         <td>Nome</td>
