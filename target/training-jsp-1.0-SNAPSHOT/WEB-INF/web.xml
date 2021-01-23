@@ -7,4 +7,8 @@
         <welcome-file>list.jsp</welcome-file>
         <!-- anntes iria para index.jsp, agora vai para list.jsp -->
     </welcome-file-list>
+    <error-page>
+        <error-code>404</error-code>
+        <location>/404.jsp</location>
+    </error-page>
 </web-app>
