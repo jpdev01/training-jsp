@@ -33,4 +33,8 @@ public class Users {
     public User load(int id){
         return users.get(id);
     }
+
+    public int size(){
+        return users.size();
+    }
 }

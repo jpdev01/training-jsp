@@ -26,6 +26,13 @@ public class User {
         this.setPermissao(permissao);
     }
 
+    public void User(String login, String pass, String permissao){
+        this.setId(generateId());
+        this.setLogin(login);
+        this.setPassword(pass);
+        this.setPermissao(permissao);
+    }
+
     public int getId() {
         return id;
     }
@@ -68,5 +75,10 @@ public class User {
     public User load(int id){
         Users users = Users.getInstance();
         return users.load(id);
+    }
+
+    public int generateId(){
+        Users users = Users.getInstance();
+        return users.size() + 1;
     }
 }
