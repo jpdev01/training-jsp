@@ -12,5 +12,8 @@
 <a href="agenda-edit">Novo contato</a>
 <a href="agenda-list">Lista de contatos</a>
 <a href="exception-test">Testar página de erro</a>
+<c:if test="${message != null}">
+    <h4>Mensagem: ${message}</h4>
+</c:if>
 </body>
 </html>
