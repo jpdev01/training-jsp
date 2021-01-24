@@ -1,5 +1,7 @@
 package servlet.security;
 
+import model.User;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -12,5 +14,13 @@ public class Save extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         Integer id = req.getParameter("id") != null ? Integer.valueOf(req.getParameter("id")) : null;
+        String login = req.getParameter("login");
+        String password = req.getParameter("password");
+        String permissao = req.getParameter("permissao");
+
+        User user = new User(login, password, permissao);
+
+        resp.sendRedirect("user/list");
+
     }
 }

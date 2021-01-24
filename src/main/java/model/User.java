@@ -19,14 +19,17 @@ public class User {
         this.instance = instance;
     }
 
-    public void User(int id, String login, String pass, String permissao){
+    public User(int id, String login, String pass, String permissao){
         this.setId(id);
         this.setLogin(login);
         this.setPassword(pass);
         this.setPermissao(permissao);
+
+        Users users = Users.getInstance();
+        users.save(this);
     }
 
-    public void User(String login, String pass, String permissao){
+    public User(String login, String pass, String permissao){
         this.setId(generateId());
         this.setLogin(login);
         this.setPassword(pass);

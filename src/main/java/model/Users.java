@@ -2,6 +2,8 @@ package model;
 
 import java.util.HashMap;
 import java.util.List;
+import java.util.Set;
+import java.util.TreeSet;
 
 public class Users {
     private HashMap<Integer, User> users;
@@ -18,8 +20,10 @@ public class Users {
         Users.instance = instance;
     }
 
-    public HashMap<Integer, User> getUsers() {
-        return users;
+    public Set<User> getUsers() {
+        Set<User> usuarios = new TreeSet<>();
+        usuarios.addAll(users.values());
+        return usuarios;
     }
 
     public void setUsers(HashMap<Integer, User> users) {
