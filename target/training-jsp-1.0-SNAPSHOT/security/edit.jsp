@@ -31,6 +31,11 @@
             <option value="adm" selected>Administrador</option>
         </select>
     </tr>
+    <tr>
+        <td colspan="2" align="right">
+            <input type="submit" value="Salvar">
+        </td>
+    </tr>
 </form>
 </body>
 </html>

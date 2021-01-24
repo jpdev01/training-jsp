@@ -142,3 +142,59 @@ URI:/training_jsp_war_exploded/index.jsp
 Tempo de processamento: 4 ms
 URI:/training_jsp_war_exploded/security/edit
 Tempo de processamento: 303 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 3 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 2 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 876 ms
+URI:/training_jsp_war_exploded/user/edit
+Tempo de processamento: 524 ms
+URI:/training_jsp_war_exploded/user/edit
+Tempo de processamento: 167943 ms
+URI:/training_jsp_war_exploded/user/edit
+Tempo de processamento: 18 ms
+URI:/training_jsp_war_exploded/user/edit
+Tempo de processamento: 8 ms
+URI:/training_jsp_war_exploded/user/edit
+Tempo de processamento: 26 ms
+URI:/training_jsp_war_exploded/user/save
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/user/user/list
+Tempo de processamento: 1 ms
+URI:/training_jsp_war_exploded/user/save
+Tempo de processamento: 6592 ms
+URI:/training_jsp_war_exploded/user/save
+Tempo de processamento: 6864 ms
+URI:/training_jsp_war_exploded/user/user/list
+Tempo de processamento: 7 ms
+URI:/training_jsp_war_exploded/user/edit
+Tempo de processamento: 30 ms
+URI:/training_jsp_war_exploded/user/save
+Tempo de processamento: 1 ms
+URI:/training_jsp_war_exploded/user/user/list
+Tempo de processamento: 1 ms
+URI:/training_jsp_war_exploded/user/save
+Tempo de processamento: 1 ms
+URI:/training_jsp_war_exploded/user/user/list
+Tempo de processamento: 3 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 12 ms
+URI:/training_jsp_war_exploded/user/edit
+Tempo de processamento: 19 ms
+URI:/training_jsp_war_exploded/user/save
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/user/user/list
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/user/edit
+Tempo de processamento: 16 ms
+URI:/training_jsp_war_exploded/user/save
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/user/user/list
+Tempo de processamento: 2 ms
+URI:/training_jsp_war_exploded/user/save
+Tempo de processamento: 1 ms
+URI:/training_jsp_war_exploded/user/save
+Tempo de processamento: 3 ms
+URI:/training_jsp_war_exploded/user/nulluser/list
+Tempo de processamento: 3 ms

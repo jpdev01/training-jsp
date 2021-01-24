@@ -30,6 +30,6 @@
 </c:if>
 
 <h2>Usuários:</h2>
-<a href="<%= application.getInitParameter("ApplicationUrl")%>security/edit">Criar novo</a>
+<a href="<%= application.getInitParameter("ApplicationUrl")%>user/edit">Criar novo</a>
 </body>
 </html>

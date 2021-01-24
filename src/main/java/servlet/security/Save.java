@@ -1,5 +1,6 @@
 package servlet.security;
 
+import config.files.AppUtils;
 import model.User;
 
 import javax.servlet.ServletException;
@@ -20,7 +21,7 @@ public class Save extends HttpServlet {
 
         User user = new User(login, password, permissao);
 
-        resp.sendRedirect("user/list");
+        resp.sendRedirect(AppUtils.getInstance().getAppUrl() + "user/list");
 
     }
 }

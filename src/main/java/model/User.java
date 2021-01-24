@@ -82,6 +82,9 @@ public class User {
 
     public int generateId(){
         Users users = Users.getInstance();
-        return users.size() + 1;
+        if (users != null && users.getUsers() != null && !(users.getUsers().isEmpty())){
+            return users.size() + 1;
+        }
+        return 1;
     }
 }
