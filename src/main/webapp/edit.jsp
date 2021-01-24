@@ -6,9 +6,7 @@
     <title>Editar contato</title>
 </head>
 <body>
-<%
-    String s = application.get
-%>
+
 <form action="agenda-save" method="post">
     <c:if test="${contato.id != null}">
         <input type="hidden" name="id" value="${contato.id}">
