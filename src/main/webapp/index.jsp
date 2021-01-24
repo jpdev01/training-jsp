@@ -22,7 +22,9 @@
 <br>
 <a href="<% application.getInitParameter("ApplicationUrl");%>exception-test">Testar página de erro</a>
 <br>
-<a href="<% application.getInitParameter("ApplicationUrl");%>sec/adm?permissao=<%=isAdm%>">Sou adm! Entrar</a>
+<a href="<% application.getInitParameter("ApplicationUrl");%>exception-test">Criar usuário</a>
+<br>
+<a href="<% application.getInitParameter("ApplicationUrl");%>sec/adm">Sou adm! Entrar</a>
 <br>
 <a href="filter-process">Iniciar processamento (filtro)</a>
 <c:if test="${message != null}">
