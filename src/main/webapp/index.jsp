@@ -8,6 +8,9 @@
 <body>
 <h1><%= "Bora!!!"%>
 </h1>
+<%
+    boolean isAdm = false;
+%>
 <br/>
 <a href="hello-servlet">Hello Servlet</a>
 <br>
@@ -17,7 +20,9 @@
 <br>
 <a href="exception-test">Testar página de erro</a>
 <br>
-<a href="filter-process">Iniciar processamento</a>
+<a href="<% application.getInitParameter("")%>sec/adm?permissao=${isAdm}">Sou adm! Entrar</a>
+<br>
+<a href="filter-process">Iniciar processamento (filtro)</a>
 <c:if test="${message != null}">
     <h4>Mensagem: ${message}</h4>
 </c:if>

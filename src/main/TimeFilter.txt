@@ -1,10 +1,10 @@
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 433 ms
 URI:/training_jsp_war_exploded/filter-process
-Tempo de processamento: 5040 ms
-URI:/training_jsp_war_exploded/filter-process
-Tempo de processamento: 2017 ms
+Tempo de processamento: 2032 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 4336 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 5 ms
 URI:/training_jsp_war_exploded/agenda-edit
-Tempo de processamento: 333 ms
-URI:/training_jsp_war_exploded/filter-process
-Tempo de processamento: 2010 ms
-URI:/training_jsp_war_exploded/filter-process
-Tempo de processamento: 2009 ms
+Tempo de processamento: 517 ms
