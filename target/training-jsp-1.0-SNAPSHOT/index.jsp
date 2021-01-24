@@ -22,13 +22,14 @@
 <br>
 <a href="<% application.getInitParameter("ApplicationUrl");%>exception-test">Testar página de erro</a>
 <br>
-<a href="<% application.getInitParameter("ApplicationUrl");%>agenda-edit?type=user">Criar usuário</a>
-<br>
 <a href="<% application.getInitParameter("ApplicationUrl");%>sec/adm">Sou adm! Entrar</a>
 <br>
 <a href="filter-process">Iniciar processamento (filtro)</a>
 <c:if test="${message != null}">
     <h4>Mensagem: ${message}</h4>
 </c:if>
+
+<h2>Usuários:</h2>
+<a href="<%= application.getInitParameter("ApplicationUrl")%>security/edit">Criar novo</a>
 </body>
 </html>

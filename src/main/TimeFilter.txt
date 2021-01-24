@@ -78,3 +78,67 @@ URI:/training_jsp_war_exploded/index.jsp
 Tempo de processamento: 428 ms
 URI:/training_jsp_war_exploded/agenda-list
 Tempo de processamento: 55 ms
+URI:/training_jsp_war_exploded/agenda-edit
+Tempo de processamento: 1666866 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 1 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 540 ms
+URI:/training_jsp_war_exploded/user/edit
+Tempo de processamento: 1 ms
+URI:/training_jsp_war_exploded/user/edit
+Tempo de processamento: 2 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 528 ms
+URI:/training_jsp_war_exploded/security/edit
+Tempo de processamento: 2 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 1 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 1 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 559 ms
+URI:/training_jsp_war_exploded/security/edit
+Tempo de processamento: 1 ms
+URI:/training_jsp_war_exploded/security/edit
+Tempo de processamento: 1 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 1 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 519 ms
+URI:/training_jsp_war_exploded/security/edit
+Tempo de processamento: 2468 ms
+URI:/training_jsp_war_exploded/security/edit
+Tempo de processamento: 48014 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 12 ms
+URI:/training_jsp_war_exploded/agenda-edit
+Tempo de processamento: 390 ms
+URI:/training_jsp_war_exploded/agenda-save
+Tempo de processamento: 1 ms
+URI:/training_jsp_war_exploded/agenda-list
+Tempo de processamento: 1 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 1 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 674 ms
+URI:/training_jsp_war_exploded/hello-servlet
+Tempo de processamento: 2 ms
+URI:/training_jsp_war_exploded/agenda-edit
+Tempo de processamento: 373 ms
+URI:/training_jsp_war_exploded/agenda-save
+Tempo de processamento: 1 ms
+URI:/training_jsp_war_exploded/agenda-list
+Tempo de processamento: 615 ms
+URI:/training_jsp_war_exploded/agenda-edit
+Tempo de processamento: 16 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 4 ms
+URI:/training_jsp_war_exploded/security/edit
+Tempo de processamento: 303 ms

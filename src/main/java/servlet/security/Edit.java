@@ -4,11 +4,13 @@ import model.User;
 import model.Users;
 
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
+@WebServlet(name="editarUsuario", value="/user/edit")
 public class Edit extends HttpServlet {
 
     @Override
@@ -21,6 +23,6 @@ public class Edit extends HttpServlet {
             req.setAttribute("user", user);
         }
 
-        req.getRequestDispatcher("security/edit.jsp").forward(req, resp);
+        req.getRequestDispatcher("/security/edit.jsp").forward(req, resp);
     }
 }
