@@ -6,7 +6,6 @@
     <title>Editar contato</title>
 </head>
 <body>
-
 <form action="agenda-save" method="post">
     <c:if test="${contato.id != null}">
         <input type="hidden" name="id" value="${contato.id}">

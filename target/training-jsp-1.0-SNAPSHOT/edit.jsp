@@ -6,10 +6,18 @@
     <title>Editar contato</title>
 </head>
 <body>
-
-<form action="agenda-save" method="post">
+<%
+    Object obj = (Object) request.getAttribute("user");
+    if (obj == null){
+        obj = (Object) request.getAttribute("contato");
+    }
+%>
+<form action="${type}-save" method="post">
     <c:if test="${contato.id != null}">
         <input type="hidden" name="id" value="${contato.id}">
+    </c:if>
+    <c:if test="${user.id != null}">
+        <input type="hidden" name="id" value="${user.id}">
     </c:if>
     <table>
         <tr>

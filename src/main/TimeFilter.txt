@@ -70,3 +70,11 @@ URI:/training_jsp_war_exploded/index.jsp
 Tempo de processamento: 369 ms
 URI:/training_jsp_war_exploded/sec/adm
 Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 3559 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 18 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 428 ms
+URI:/training_jsp_war_exploded/agenda-list
+Tempo de processamento: 55 ms
