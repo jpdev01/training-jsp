@@ -19,16 +19,7 @@ public class EditarServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
          Integer id = req.getParameter("id") != null ? Integer.valueOf(req.getParameter("id")) : null;
-         String type = req.getParameter("type");
-         if (type != null && type == "user"){
-             Users users = Users.getInstance();
 
-             if (id != null){
-                 User usr = users.load(id);
-                 req.setAttribute("user", usr);
-             }
-             req.setAttribute("type", "user");
-         } else {
              // metodo singleton
              Agenda agenda = Agenda.getInstance();
 
@@ -36,9 +27,7 @@ public class EditarServlet extends HttpServlet {
                  Contato contato = agenda.carregar(id);
                  req.setAttribute("contato", contato);
              }
-         }
 
-
-         req.getRequestDispatcher("/edit.jsp").forward(req, resp);
+         req.getRequestDispatcher("agenda/edit.jsp").forward(req, resp);
     }
 }
