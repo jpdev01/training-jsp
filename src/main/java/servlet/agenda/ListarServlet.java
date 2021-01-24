@@ -1,6 +1,7 @@
-package servlet;
+package servlet.agenda;
 
 import model.Agenda;
+import model.Contato;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -8,20 +9,19 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.util.Set;
 
-@WebServlet("/agenda-exluir")
-public class ExcluirServlet extends HttpServlet {
+@WebServlet(name = "agenda", value = "/agenda-list")
+public class ListarServlet extends HttpServlet {
 
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        if (req.getParameter("id") != null){
-            Integer id = Integer.valueOf(req.getParameter("id"));
+        Agenda agenda = Agenda.getInstance();
 
-            Agenda agenda = Agenda.getInstance();
-            agenda.excluir(id);
-        }
-        resp.sendRedirect("agenda-list");
+        Set<Contato> contatos = agenda.getContatos();
+        req.setAttribute("contatos", contatos);
 
+        req.getRequestDispatcher("/list.jsp").forward(req, resp);
     }
 }

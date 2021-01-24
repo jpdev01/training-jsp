@@ -1,4 +1,4 @@
-package servlet;
+package servlet.agenda;
 
 import model.Agenda;
 import model.Contato;
