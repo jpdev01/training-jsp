@@ -1,5 +1,7 @@
 package filter;
 
+import config.files.Write;
+
 import javax.servlet.*;
 import javax.servlet.annotation.WebFilter;
 import javax.servlet.http.HttpServlet;
@@ -14,6 +16,7 @@ public class TimeFilter implements Filter {
 
     public void doFilter(ServletRequest req, ServletResponse resp, FilterChain chain) throws ServletException, IOException {
         long inicio = System.currentTimeMillis(); // inicio do cronometro
+        HttpServletRequest request = (HttpServletRequest) req; // p armazenar a requisição (primeira)
 
         chain.doFilter(req, resp); // chama a request
         // voltando da request
@@ -22,13 +25,9 @@ public class TimeFilter implements Filter {
         System.out.println("Tempo de processamento:" + time + " milissegundos");
 
         // vamos escrever isso em um doc!!!
-        HttpServletRequest request = (HttpServletRequest) req;
-        FileWriter fw = new FileWriter("C:/jpt/jptpgm/Java/Web/training-jsp/src/main/TimeFilter.txt", true);
-        // o segundo parametro define o append, ou seja, se for true, quando tiver conteúdo no documento, ele não será apagado.
-        // Mas terá conteudo adicionado.
-        fw.write("URI:" + request.getRequestURI() + "\nTempo de processamento: " + time + " ms");
-        fw.write(System.getProperty("line.separator"));
-        fw.close();
+        Write wToFile = new Write();
+        String message = "URI:" + request.getRequestURI() + "\nTempo de processamento: " + time + " ms";
+        wToFile.writeToFile("C:/jpt/jptpgm/Java/Web/training-jsp/src/main/TimeFilter.txt", request, message, true);
     }
 
     public void init(FilterConfig config) throws ServletException {
