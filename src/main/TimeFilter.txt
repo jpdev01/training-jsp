@@ -8,3 +8,33 @@ URI:/training_jsp_war_exploded/
 Tempo de processamento: 5 ms
 URI:/training_jsp_war_exploded/agenda-edit
 Tempo de processamento: 517 ms
+URI:/training_jsp_war_exploded/agenda-edit
+Tempo de processamento: 9 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 2335 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 3 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 3856 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 13 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 569 ms
+URI:/training_jsp_war_exploded/hello-servlet
+Tempo de processamento: 1 ms
+URI:/training_jsp_war_exploded/filter-process
+Tempo de processamento: 2029 ms
+URI:/training_jsp_war_exploded/sec/adm
+Tempo de processamento: 1 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 3650 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 11 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 525 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 17 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 385 ms
+URI:/training_jsp_war_exploded/sec/adm
+Tempo de processamento: 1 ms

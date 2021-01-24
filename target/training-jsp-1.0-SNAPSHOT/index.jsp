@@ -8,16 +8,23 @@
 <body>
 <h1><%= "Bora!!!"%>
 </h1>
+<%
+    boolean isAdm = false;
+    HttpServletRequest req = request;
+    session.setAttribute("permissao", "guest");
+%>
 <br/>
-<a href="hello-servlet">Hello Servlet</a>
+<a href="<% application.getInitParameter("ApplicationUrl");%>hello-servlet">Hello Servlet</a>
 <br>
-<a href="agenda-edit">Novo contato</a>
+<a href="<% application.getInitParameter("ApplicationUrl");%>agenda-edit">Novo contato</a>
 <br>
-<a href="agenda-list">Lista de contatos</a>
+<a href="<% application.getInitParameter("ApplicationUrl");%>agenda-list">Lista de contatos</a>
 <br>
-<a href="exception-test">Testar página de erro</a>
+<a href="<% application.getInitParameter("ApplicationUrl");%>exception-test">Testar página de erro</a>
 <br>
-<a href="filter-process">Iniciar processamento</a>
+<a href="<% application.getInitParameter("ApplicationUrl");%>sec/adm?permissao=${isAdm}">Sou adm! Entrar</a>
+<br>
+<a href="filter-process">Iniciar processamento (filtro)</a>
 <c:if test="${message != null}">
     <h4>Mensagem: ${message}</h4>
 </c:if>

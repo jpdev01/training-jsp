@@ -16,7 +16,7 @@
         <location>/error.jsp</location>
     </error-page>
     <context-param>
-        <param-name>AppUrl</param-name>
+        <param-name>ApplicationUrl</param-name>
         <param-value>http://localhost:8081/training_jsp_war_exploded/</param-value>
     </context-param>
 </web-app>
