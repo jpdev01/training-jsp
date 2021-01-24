@@ -5,9 +5,18 @@ public class User {
     private String login;
     private String password;
     private String permissao;
+    private static User instance;
 
     public void User(){
 
+    }
+
+    public static User getInstance() {
+        return instance;
+    }
+
+    public void setInstance(User instance) {
+        this.instance = instance;
     }
 
     public void User(int id, String login, String pass, String permissao){
@@ -54,5 +63,10 @@ public class User {
             return true;
         }
         return false;
+    }
+
+    public User load(int id){
+        Users users = Users.getInstance();
+        return users.load(id);
     }
 }

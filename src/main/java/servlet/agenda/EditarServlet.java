@@ -2,6 +2,8 @@ package servlet.agenda;
 
 import model.Agenda;
 import model.Contato;
+import model.User;
+import model.Users;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -17,13 +19,25 @@ public class EditarServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
          Integer id = req.getParameter("id") != null ? Integer.valueOf(req.getParameter("id")) : null;
-         // metodo singleton
-         Agenda agenda = Agenda.getInstance();
+         String type = req.getParameter("type");
+         if (type != null && type == "user"){
+             Users users = Users.getInstance();
 
-         if (id != null){
-             Contato contato = agenda.carregar(id);
-             req.setAttribute("contato", contato);
+             if (id != null){
+                 User usr = users.load(id);
+                 req.setAttribute("user", usr);
+             }
+             req.setAttribute("type", "user");
+         } else {
+             // metodo singleton
+             Agenda agenda = Agenda.getInstance();
+
+             if (id != null){
+                 Contato contato = agenda.carregar(id);
+                 req.setAttribute("contato", contato);
+             }
          }
+
 
          req.getRequestDispatcher("/edit.jsp").forward(req, resp);
     }

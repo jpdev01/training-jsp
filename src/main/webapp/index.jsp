@@ -22,7 +22,7 @@
 <br>
 <a href="<% application.getInitParameter("ApplicationUrl");%>exception-test">Testar página de erro</a>
 <br>
-<a href="<% application.getInitParameter("ApplicationUrl");%>exception-test">Criar usuário</a>
+<a href="<% application.getInitParameter("ApplicationUrl");%>agenda-edit?type=user">Criar usuário</a>
 <br>
 <a href="<% application.getInitParameter("ApplicationUrl");%>sec/adm">Sou adm! Entrar</a>
 <br>
