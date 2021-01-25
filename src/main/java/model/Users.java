@@ -1,13 +1,14 @@
 package model;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Set;
-import java.util.TreeSet;
+import java.util.*;
 
 public class Users {
-    private HashMap<Integer, User> users;
+    private Map<Integer, User> users = new HashMap<Integer, User>();;
     private static Users instance;
+
+    public Users(){
+
+    }
 
     public static Users getInstance() {
         if (instance == null){
@@ -21,12 +22,11 @@ public class Users {
     }
 
     public Set<User> getUsers() {
+        Set<User> usuarios = new TreeSet<>();
         if (users != null && !users.isEmpty()){
-            Set<User> usuarios = new TreeSet<>();
             usuarios.addAll(users.values());
-            return usuarios;
         }
-        return null;
+        return usuarios;
     }
 
     public void setUsers(HashMap<Integer, User> users) {
@@ -34,6 +34,9 @@ public class Users {
     }
 
     public void save(User u){
+        if (users == null){
+            users = new HashMap<Integer, User>();
+        }
         users.put(u.getId(), u);
     }
 

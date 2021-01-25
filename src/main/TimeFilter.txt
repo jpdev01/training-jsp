@@ -306,3 +306,19 @@ URI:/training_jsp_war_exploded/user/save
 Tempo de processamento: 0 ms
 URI:/training_jsp_war_exploded/user/list
 Tempo de processamento: 4 ms
+URI:/training_jsp_war_exploded/user/list
+Tempo de processamento: 610 ms
+URI:/training_jsp_war_exploded/user/edit
+Tempo de processamento: 26 ms
+URI:/training_jsp_war_exploded/user/save
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/user/save
+Tempo de processamento: 59342 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 14 ms
+URI:/training_jsp_war_exploded/user/edit
+Tempo de processamento: 27 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 5 ms
+URI:/training_jsp_war_exploded/user/edit
+Tempo de processamento: 16 ms

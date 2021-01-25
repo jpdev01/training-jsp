@@ -12,9 +12,6 @@
     <title>Usuários</title>
 </head>
 <body>
-<%
-    String appUrl = AppUtils.getInstance().getAppUrl();
-%>
 <c:url var="newUser" value="${AppUtils.getInstance().getAppUrl()}user/edit"></c:url>
 
 <a href="${newUser}">Adicionar novo usuário</a>
@@ -35,13 +32,18 @@
     </c:when>
     <c:otherwise>
         <c:forEach var="user" items="${users}">
-
+            <c:url var="edit" value="${AppUtils.getInstance().getAppUrl()}user/edit">
+                <c:param name="id" value="user.id"></c:param>
+            </c:url>
+            <c:url var="exclude" value="${AppUtils.getInstance().getAppUrl()}user/exclude">
+                <c:param name="id" value="user.id"></c:param>
+            </c:url>
             <tr>
                 <td>${user.login}</td>
                 <td>${user.login}</td>
                 <td>${user.password}</td>
-                <td>${editarUser}</td>
-                <td>${excludeUser}</td>
+                <td>${edit}</td>
+                <td>${exclude}</td>
             </tr>
         </c:forEach>
     </c:otherwise>

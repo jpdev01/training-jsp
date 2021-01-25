@@ -2,6 +2,7 @@ package servlet.security;
 
 import config.files.AppUtils;
 import model.User;
+import model.Users;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -20,6 +21,8 @@ public class Save extends HttpServlet {
         String permissao = req.getParameter("permissao");
 
         User user = new User(login, password, permissao);
+        Users users = Users.getInstance();
+        users.save(user);
 
         resp.sendRedirect(AppUtils.getInstance().getAppUrl() + "user/list");
 
