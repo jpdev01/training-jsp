@@ -1,4 +1,4 @@
-<%--
+<%@ page import="config.files.AppUtils" %><%--
   Created by IntelliJ IDEA.
   User: jptru
   Date: 24/01/2021
@@ -12,9 +12,9 @@
     <title>Usuários</title>
 </head>
 <body>
-<c:url var="newUser" value="<%= application.getInitParameter("ApplicationUrl")%>user/edit"></c:url>
+<c:url var="newUser" value="${AppUtils.getInstance().getAppUrl()}user/edit"></c:url>
 
-<a href="newUser">Adicionar novo usuário</a>
+<a href="${newUser}">Adicionar novo usuário</a>
 
 <table width="100%" border="1">
     <tr>
@@ -24,6 +24,7 @@
         <td>Editar</td>
         <td>Excluir</td>
     </tr>
+    <c:choose>
     <c:when test="${empty(users)}">
         <tr>
             <td colspan="5">Nenhum usuário cadastrado</td>
@@ -31,19 +32,22 @@
     </c:when>
     <c:otherwise>
         <c:forEach var="user" items="${users}">
-            <c:url var="editarUser" value="<%=application.getInitParameter("ApplicationUrl")%>user/edit">
-                <c:param name="id" value="${user.id}"></c:param>
+            <c:url var="edit" value="${AppUtils.getInstance().getAppUrl()}user/edit">
+                <c:param name="id" value="user.id"></c:param>
             </c:url>
-            <c:url var="excludeUser" value="<%=application.getInitParameter("ApplicationUrl")%>user/exlude"></c:url>
+            <c:url var="exclude" value="${AppUtils.getInstance().getAppUrl()}user/exclude">
+                <c:param name="id" value="user.id"></c:param>
+            </c:url>
             <tr>
                 <td>${user.login}</td>
                 <td>${user.login}</td>
                 <td>${user.password}</td>
-                <td>${editarUser}</td>
-                <td>${excludeUser}</td>
+                <td>${edit}</td>
+                <td>${exclude}</td>
             </tr>
         </c:forEach>
     </c:otherwise>
+    </c:choose>
 </table>
 </body>
 </html>
