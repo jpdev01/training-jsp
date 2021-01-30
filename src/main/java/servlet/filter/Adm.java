@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-//@WebServlet(name="adm", value="/sec/adm")
+@WebServlet(name="adm", value="/user/*")
 public class Adm extends HttpServlet {
 
     @Override

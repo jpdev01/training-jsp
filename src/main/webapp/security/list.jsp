@@ -32,10 +32,10 @@
     </c:when>
     <c:otherwise>
         <c:forEach var="user" items="${users}">
-            <c:url var="edit" value="${AppUtils.getInstance().getAppUrl()}user/edit">
+            <c:url var="edit" value="${AppUtils.getInstance().getAppUrl()}sec/user/edit">
                 <c:param name="id" value="${user.id}"></c:param>
             </c:url>
-            <c:url var="exclude" value="${AppUtils.getInstance().getAppUrl()}user/exclude">
+            <c:url var="exclude" value="${AppUtils.getInstance().getAppUrl()}sec/user/exclude">
                 <c:param name="id" value="${user.id}"></c:param>
             </c:url>
             <tr>
