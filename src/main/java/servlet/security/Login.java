@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 @WebServlet(name="login", value="/user/login")
-public class login extends HttpServlet {
+public class Login extends HttpServlet {
     Users usersInstance = Users.getInstance();
 
     @Override

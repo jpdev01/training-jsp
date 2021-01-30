@@ -1,4 +1,7 @@
-<%@ page import="config.files.AppUtils" %><%--
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page import="config.files.AppUtils" %>
+<%@ page import="model.Users" %>
+<%@ page import="model.User" %><%--
   Created by IntelliJ IDEA.
   User: jptru
   Date: 30/01/2021
@@ -8,7 +11,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Ligin</title>
+    <title>Login</title>
 </head>
 <body>
 <form action="<%= AppUtils.getInstance().getAppUrl()%>user/login" method="post">
@@ -24,8 +27,9 @@
         <td><button type="submit">OK</button></td>
     </tr>
 </form>
-<c:if test="${validateAcess != null}">
+<c:if test="${validateAcess != null && validateAces == 'false'}">
     <p>Acesso negadp!</p>
 </c:if>
+<p>${validateAcess}</p>
 </body>
 </html>
