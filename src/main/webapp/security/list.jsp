@@ -42,8 +42,8 @@
                 <td>${user.login}</td>
                 <td>${user.login}</td>
                 <td>${user.password}</td>
-                <td>${edit}</td>
-                <td>${exclude}</td>
+                <td><a href="${edit}">Editar</a></td>
+                <td><a href="${exclude}">Excluir></a></td>
             </tr>
         </c:forEach>
     </c:otherwise>

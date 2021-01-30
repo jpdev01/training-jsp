@@ -43,4 +43,20 @@ public class Users {
     public int size(){
         return users.size();
     }
+
+    public void remove(int id){
+        users.remove(id);
+    }
+
+    public Integer getUserId(User userToGet){
+        if (users != null && !users.isEmpty()){
+            Collection<User> usuarios = getUsers();
+            for (User u : usuarios){
+                if (u == userToGet){
+                    return u.getId();
+                }
+            }
+        }
+        return null;
+    }
 }
