@@ -19,11 +19,16 @@ public class SecurityFilter implements Filter {
         HttpSession session = request.getSession();
         String permissao = (String) session.getAttribute("permissao");
 
+        permissao = "adm";
+
         if (permissao != null && !(permissao == "adm")) {
             response.sendError(HttpServletResponse.SC_FORBIDDEN);
             // acesso negado = codigo 403
         }
-        chain.doFilter(req, resp);
+        else{
+            chain.doFilter(req, resp);
+        }
+
     }
 
     public void init(FilterConfig config) throws ServletException {

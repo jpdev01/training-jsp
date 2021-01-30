@@ -24,7 +24,7 @@ public class Save extends HttpServlet {
         Users users = Users.getInstance();
         users.save(user);
 
-        resp.sendRedirect(AppUtils.getInstance().getAppUrl() + "user/list");
+        resp.sendRedirect(AppUtils.getInstance().getAppUrl() + "sec/user/list");
 
     }
 }

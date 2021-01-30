@@ -12,7 +12,7 @@
     <title>Usuários</title>
 </head>
 <body>
-<c:url var="newUser" value="${AppUtils.getInstance().getAppUrl()}user/edit"></c:url>
+<c:url var="newUser" value="${AppUtils.getInstance().getAppUrl()}adm/user/edit"></c:url>
 
 <a href="${newUser}">Adicionar novo usuário</a>
 
