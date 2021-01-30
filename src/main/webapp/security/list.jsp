@@ -33,17 +33,17 @@
     <c:otherwise>
         <c:forEach var="user" items="${users}">
             <c:url var="edit" value="${AppUtils.getInstance().getAppUrl()}user/edit">
-                <c:param name="id" value="user.id"></c:param>
+                <c:param name="id" value="${user.id}"></c:param>
             </c:url>
             <c:url var="exclude" value="${AppUtils.getInstance().getAppUrl()}user/exclude">
-                <c:param name="id" value="user.id"></c:param>
+                <c:param name="id" value="${user.id}"></c:param>
             </c:url>
             <tr>
                 <td>${user.login}</td>
                 <td>${user.login}</td>
                 <td>${user.password}</td>
                 <td><a href="${edit}">Editar</a></td>
-                <td><a href="${exclude}">Excluir></a></td>
+                <td><a href="${exclude}">Excluir</a></td>
             </tr>
         </c:forEach>
     </c:otherwise>
