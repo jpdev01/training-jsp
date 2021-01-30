@@ -40,8 +40,8 @@
             </c:url>
             <tr>
                 <td>${user.login}</td>
-                <td>${user.login}</td>
                 <td>${user.password}</td>
+                <td>${user.permissao}</td>
                 <td><a href="${edit}">Editar</a></td>
                 <td><a href="${exclude}">Excluir</a></td>
             </tr>
