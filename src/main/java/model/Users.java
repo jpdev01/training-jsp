@@ -21,12 +21,8 @@ public class Users {
         Users.instance = instance;
     }
 
-    public Set<User> getUsers() {
-        Set<User> usuarios = new TreeSet<>();
-        if (users != null && !users.isEmpty()){
-            usuarios.addAll(users.values());
-        }
-        return usuarios;
+    public Collection<User> getUsers() {
+        return users.values();
     }
 
     public void setUsers(HashMap<Integer, User> users) {

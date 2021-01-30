@@ -322,3 +322,13 @@ URI:/training_jsp_war_exploded/index.jsp
 Tempo de processamento: 5 ms
 URI:/training_jsp_war_exploded/user/edit
 Tempo de processamento: 16 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 3 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 1 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 576 ms
+URI:/training_jsp_war_exploded/user/edit
+Tempo de processamento: 402 ms
+URI:/training_jsp_war_exploded/user/save
+Tempo de processamento: 6 ms
