@@ -20,7 +20,7 @@ public class Save extends HttpServlet {
         String password = req.getParameter("password");
         String permissao = req.getParameter("permissao");
 
-        User user = new User(login, password, permissao);
+        User user = new User(id, login, password, permissao);
         Users users = Users.getInstance();
         users.save(user);
 

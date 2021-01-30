@@ -19,7 +19,8 @@ public class User {
         this.instance = instance;
     }
 
-    public User(int id, String login, String pass, String permissao){
+    public User(Integer id, String login, String pass, String permissao){
+        id = id == null ? generateId() : id;
         this.setId(id);
         this.setLogin(login);
         this.setPassword(pass);
