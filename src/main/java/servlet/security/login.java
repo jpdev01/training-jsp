@@ -27,7 +27,8 @@ public class login extends HttpServlet {
             req.setAttribute("userInfo", user);
             req.getRequestDispatcher(AppUtils.getInstance().getAppUrl()+"index.jsp").forward(req, resp);
         } else {
-
+            req.setAttribute("validateAcess", false);
+            req.getRequestDispatcher("/security/login.jsp").forward(req, resp);
         }
 
     }
