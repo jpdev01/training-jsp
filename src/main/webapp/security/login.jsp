@@ -14,6 +14,9 @@
     <title>Login</title>
 </head>
 <body>
+<%
+    request.setAttribute("userInfo", null);
+%>
 <form action="<%= AppUtils.getInstance().getAppUrl()%>user/login" method="post">
     <tr>
         <td>Usuário:</td>

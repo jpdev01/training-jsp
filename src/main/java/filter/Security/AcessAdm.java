@@ -10,7 +10,7 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
 @WebFilter(filterName = "SecurityFilter", value="/sec/*")
-public class SecurityFilter implements Filter {
+public class AcessAdm implements Filter {
     public void destroy() {
     }
 

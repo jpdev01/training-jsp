@@ -8,11 +8,6 @@
 <body>
 <h1><%= "Bora!!!"%>
 </h1>
-<%
-    boolean isAdm = false;
-    HttpServletRequest req = request;
-    session.setAttribute("permissao", "guest");
-%>
 <br/>
 <a href="<% application.getInitParameter("ApplicationUrl");%>hello-servlet">Hello Servlet</a>
 <br>
