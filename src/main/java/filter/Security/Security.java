@@ -10,8 +10,7 @@ public class Security implements Filter{
 
     @Override
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
-
-        chain.doFilter(req, resp);
+        filterChain.doFilter(servletRequest, servletResponse);
     }
 
     @Override
