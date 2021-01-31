@@ -14,7 +14,7 @@
     <title>Agenda</title>
 </head>
 <body>
-<c:url var="novoContato" value="portal/agenda-edit"></c:url>
+<c:url var="novoContato" value="${AppUtils.getInstance().getAppUrl()}portal/agenda-edit"></c:url>
 
 <a href="${novoContato}">Adicionar novo contato</a>
 
@@ -33,11 +33,11 @@
         </c:when>
         <c:otherwise>
             <c:forEach var="c" items="${contatos}">
-                <c:url var="editarContatoUrl" value="<%=AppUtils.getInstance().getAppUrl()%>portal/agenda-edit">
+                <c:url var="editarContatoUrl" value="${AppUtils.getInstance().getAppUrl()}portal/agenda-edit">
                     <c:param name="id" value="${c.id}"></c:param>
                 </c:url>
 
-                <c:url var="excluirContatoUrl" value="<%=AppUtils.getInstance().getAppUrl()%>portal/agenda-exluir">
+                <c:url var="excluirContatoUrl" value="${AppUtils.getInstance().getAppUrl()}portal/agenda-exluir">
                     <c:param name="id" value="${c.id}"></c:param>
                 </c:url>
                 <tr>
