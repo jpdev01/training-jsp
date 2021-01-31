@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(name = "agenda/edit", value = "/agenda-edit")
+@WebServlet(name = "agenda/edit", value = "/portal/agenda-edit")
 public class EditarServlet extends HttpServlet {
 
 
@@ -28,6 +28,6 @@ public class EditarServlet extends HttpServlet {
                  req.setAttribute("contato", contato);
              }
 
-         req.getRequestDispatcher("agenda/edit.jsp").forward(req, resp);
+         req.getRequestDispatcher("/agenda/edit.jsp").forward(req, resp);
     }
 }

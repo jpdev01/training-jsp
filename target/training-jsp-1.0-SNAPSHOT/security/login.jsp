@@ -14,6 +14,9 @@
     <title>Login</title>
 </head>
 <body>
+<%
+    request.setAttribute("userInfo", null);
+%>
 <form action="<%= AppUtils.getInstance().getAppUrl()%>user/login" method="post">
     <tr>
         <td>Usuário:</td>
@@ -27,9 +30,8 @@
         <td><button type="submit">OK</button></td>
     </tr>
 </form>
-<c:if test="${validateAcess != null && validateAces == 'false'}">
-    <p>Acesso negadp!</p>
+<c:if test="${validateAcess != null && validateAcess == false}">
+    <p>Acesso negado!</p>
 </c:if>
-<p>${validateAcess}</p>
 </body>
 </html>

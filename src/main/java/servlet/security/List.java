@@ -14,7 +14,7 @@ import java.util.Collection;
 import java.util.Map;
 import java.util.Set;
 
-@WebServlet(name="listUsers", value="/sec/user/list")
+@WebServlet(name="listUsers", value="/portal/sec/user/list")
 public class List extends HttpServlet {
 
     @Override

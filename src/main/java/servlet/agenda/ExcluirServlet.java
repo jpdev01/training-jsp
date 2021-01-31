@@ -1,5 +1,6 @@
 package servlet.agenda;
 
+import config.files.AppUtils;
 import model.Agenda;
 
 import javax.servlet.ServletException;
@@ -9,7 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet("/agenda-exluir")
+@WebServlet("/portal/agenda-exluir")
 public class ExcluirServlet extends HttpServlet {
 
 
@@ -21,7 +22,7 @@ public class ExcluirServlet extends HttpServlet {
             Agenda agenda = Agenda.getInstance();
             agenda.excluir(id);
         }
-        resp.sendRedirect("agenda-list");
+        resp.sendRedirect(AppUtils.getInstance().getAppUrl() + "portal/agenda-list");
 
     }
 }

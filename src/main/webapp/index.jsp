@@ -9,15 +9,15 @@
 <h1><%= "Bora!!!"%>
 </h1>
 <br/>
-<a href="<% application.getInitParameter("ApplicationUrl");%>hello-servlet">Hello Servlet</a>
+<a href="<% application.getInitParameter("ApplicationUrl");%>portal/hello-servlet">Hello Servlet</a>
 <br>
-<a href="<% application.getInitParameter("ApplicationUrl");%>agenda-edit">Novo contato</a>
+<a href="<% application.getInitParameter("ApplicationUrl");%>portal/agenda-edit">Novo contato</a>
 <br>
-<a href="<% application.getInitParameter("ApplicationUrl");%>agenda-list">Lista de contatos</a>
+<a href="<% application.getInitParameter("ApplicationUrl");%>portal/agenda-list">Lista de contatos</a>
 <br>
 <a href="<% application.getInitParameter("ApplicationUrl");%>exception-test">Testar página de erro</a>
 <br>
-<a href="<% application.getInitParameter("ApplicationUrl");%>sec/adm">Sou adm! Entrar</a>
+<a href="<% application.getInitParameter("ApplicationUrl");%>portal/sec/adm">Sou adm! Entrar</a>
 <br>
 <a href="filter-process">Iniciar processamento (filtro)</a>
 <c:if test="${message != null}">
@@ -25,6 +25,6 @@
 </c:if>
 
 <h2>Usuários:</h2>
-<a href="<%= application.getInitParameter("ApplicationUrl")%>sec/user/edit">Criar novo</a>
+<a href="<%= application.getInitParameter("ApplicationUrl")%>portal/sec/user/edit">Criar novo</a>
 </body>
 </html>

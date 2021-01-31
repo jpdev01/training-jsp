@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.Collection;
 
-@WebServlet(name="excludeUser", value="/sec/user/exclude")
+@WebServlet(name="excludeUser", value="/portal/sec/user/exclude")
 public class Exclude extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -22,6 +22,6 @@ public class Exclude extends HttpServlet {
             int id = Integer.valueOf(req.getParameter("id"));
             usersInstance.remove(id);
         }
-        resp.sendRedirect(AppUtils.getInstance().getAppUrl() + "sec/user/list");
+        resp.sendRedirect(AppUtils.getInstance().getAppUrl() + "portal/sec/user/list");
     }
 }

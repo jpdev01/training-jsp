@@ -12,7 +12,7 @@
     <title>Usuários</title>
 </head>
 <body>
-<c:url var="newUser" value="${AppUtils.getInstance().getAppUrl()}adm/user/edit"></c:url>
+<c:url var="newUser" value="${AppUtils.getInstance().getAppUrl()}portal/sec/user/edit"></c:url>
 
 <a href="${newUser}">Adicionar novo usuário</a>
 
@@ -32,10 +32,10 @@
     </c:when>
     <c:otherwise>
         <c:forEach var="user" items="${users}">
-            <c:url var="edit" value="${AppUtils.getInstance().getAppUrl()}sec/user/edit">
+            <c:url var="edit" value="${AppUtils.getInstance().getAppUrl()}portal/sec/user/edit">
                 <c:param name="id" value="${user.id}"></c:param>
             </c:url>
-            <c:url var="exclude" value="${AppUtils.getInstance().getAppUrl()}sec/user/exclude">
+            <c:url var="exclude" value="${AppUtils.getInstance().getAppUrl()}portal/sec/user/exclude">
                 <c:param name="id" value="${user.id}"></c:param>
             </c:url>
             <tr>
