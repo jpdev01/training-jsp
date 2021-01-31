@@ -14,6 +14,6 @@ public class Requests implements ServletRequestListener {
 
     @Override
     public void requestInitialized(ServletRequestEvent e) {
-        System.out.println("Requisição: inicializada!");
+        System.out.println("Requisição: inicializada! " +  e.getServletRequest().getServerName() + ":" + e.getServletRequest().getLocalPort());
     }
 }
