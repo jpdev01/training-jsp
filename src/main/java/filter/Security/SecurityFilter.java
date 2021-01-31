@@ -1,5 +1,7 @@
 package filter.Security;
 
+import model.User;
+
 import javax.servlet.*;
 import javax.servlet.annotation.WebFilter;
 import javax.servlet.http.HttpServletRequest;
@@ -17,11 +19,11 @@ public class SecurityFilter implements Filter {
         HttpServletResponse response = (HttpServletResponse) resp;
 
         HttpSession session = request.getSession();
-        String permissao = (String) session.getAttribute("permissao");
+        User user = (User) session.getAttribute("userInfo");
 
-        permissao = "adm";
+        String permissao = user != null ? user.getPermissao() : null;
 
-        if (permissao != null && !(permissao == "adm")) {
+        if (user != null && permissao != null && !(permissao.equals("adm"))) {
             response.sendError(HttpServletResponse.SC_FORBIDDEN);
             // acesso negado = codigo 403
         }

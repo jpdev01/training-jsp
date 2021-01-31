@@ -9,6 +9,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
 @WebServlet(name="login", value="/user/login")
@@ -24,8 +25,12 @@ public class Login extends HttpServlet {
 
         if (validate == true){
             User user = getUser(login);
-            req.setAttribute("userInfo", user);
-            req.getRequestDispatcher(AppUtils.getInstance().getAppUrl()+"index.jsp").forward(req, resp);
+
+            HttpSession session = req.getSession();
+            session.setAttribute("userInfo", user);
+//            req.setAttribute("userInfo", user);
+            resp.sendRedirect(AppUtils.getInstance().getAppUrl() + "index.jsp");
+            //req.getRequestDispatcher(AppUtils.getInstance().getAppUrl() + "index.jsp").forward(req, resp);
         } else {
             req.setAttribute("validateAcess", false);
             req.getRequestDispatcher("/security/login.jsp").forward(req, resp);
@@ -36,7 +41,7 @@ public class Login extends HttpServlet {
     public boolean validateLogin(String login, String pass){
 
         for (User u : usersInstance.getUsers()){
-            if (u.getLogin() == login && u.getPassword() == pass){
+            if (u.getLogin().equals(login) && u.getPassword().equals(pass)){
                 return true;
             }
         }
@@ -47,7 +52,7 @@ public class Login extends HttpServlet {
     public User getUser(String login){
 
         for (User u : usersInstance.getUsers()){
-            if (u.getLogin() == login){
+            if (u.getLogin().equals(login)){
                 return u;
             }
         }
