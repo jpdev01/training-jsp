@@ -10,7 +10,7 @@
 <body>
 <c:choose>
     <c:when test="${userInfo != null}">
-        <h1><%= "Bora!!!"%>
+        <h1>Bem-vindo, ${userInfo.getLogin()}
         </h1>
         <br/>
         <a href="<% application.getInitParameter("ApplicationUrl");%>portal/hello-servlet">Hello Servlet</a>

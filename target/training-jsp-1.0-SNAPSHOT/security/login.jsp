@@ -16,6 +16,7 @@
 <body>
 <%
     request.setAttribute("userInfo", null);
+    session.setAttribute("userInfo", null);
 %>
 <form action="<%= AppUtils.getInstance().getAppUrl()%>user/login" method="post">
     <tr>
