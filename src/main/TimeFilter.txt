@@ -322,3 +322,813 @@ URI:/training_jsp_war_exploded/index.jsp
 Tempo de processamento: 5 ms
 URI:/training_jsp_war_exploded/user/edit
 Tempo de processamento: 16 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 3 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 1 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 576 ms
+URI:/training_jsp_war_exploded/user/edit
+Tempo de processamento: 402 ms
+URI:/training_jsp_war_exploded/user/save
+Tempo de processamento: 6 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 4 ms
+URI:/training_jsp_war_exploded/index.html
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 474 ms
+URI:/training_jsp_war_exploded/user/edit
+Tempo de processamento: 358 ms
+URI:/training_jsp_war_exploded/user/save
+Tempo de processamento: 84574 ms
+URI:/training_jsp_war_exploded/user/edit
+Tempo de processamento: 9 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 1 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 1 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 633 ms
+URI:/training_jsp_war_exploded/user/edit
+Tempo de processamento: 530 ms
+URI:/training_jsp_war_exploded/user/save
+Tempo de processamento: 8 ms
+URI:/training_jsp_war_exploded/user/list
+Tempo de processamento: 667 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 1 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 1 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 517 ms
+URI:/training_jsp_war_exploded/user/edit
+Tempo de processamento: 364 ms
+URI:/training_jsp_war_exploded/user/save
+Tempo de processamento: 8 ms
+URI:/training_jsp_war_exploded/user/list
+Tempo de processamento: 535 ms
+URI:/training_jsp_war_exploded/user/list
+Tempo de processamento: 567 ms
+URI:/training_jsp_war_exploded/user/list
+Tempo de processamento: 534 ms
+URI:/training_jsp_war_exploded/user/exclude
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/user/list
+Tempo de processamento: 2 ms
+URI:/training_jsp_war_exploded/user/edit
+Tempo de processamento: 11 ms
+URI:/training_jsp_war_exploded/user/save
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/user/list
+Tempo de processamento: 5 ms
+URI:/training_jsp_war_exploded/user/edit
+Tempo de processamento: 5 ms
+URI:/training_jsp_war_exploded/user/save
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/user/list
+Tempo de processamento: 9 ms
+URI:/training_jsp_war_exploded/user/exclude
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/user/list
+Tempo de processamento: 2 ms
+URI:/training_jsp_war_exploded/user/exclude
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/user/list
+Tempo de processamento: 3 ms
+URI:/training_jsp_war_exploded/user/edit
+Tempo de processamento: 6 ms
+URI:/training_jsp_war_exploded/user/save
+Tempo de processamento: 1 ms
+URI:/training_jsp_war_exploded/user/list
+Tempo de processamento: 5 ms
+URI:/training_jsp_war_exploded/user/edit
+Tempo de processamento: 10 ms
+URI:/training_jsp_war_exploded/user/save
+Tempo de processamento: 1 ms
+URI:/training_jsp_war_exploded/user/list
+Tempo de processamento: 8 ms
+URI:/training_jsp_war_exploded/user/list
+Tempo de processamento: 9 ms
+URI:/training_jsp_war_exploded/user/edit
+Tempo de processamento: 11 ms
+URI:/training_jsp_war_exploded/user/save
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/user/list
+Tempo de processamento: 15 ms
+URI:/training_jsp_war_exploded/user/edit
+Tempo de processamento: 21 ms
+URI:/training_jsp_war_exploded/user/save
+Tempo de processamento: 47537 ms
+URI:/training_jsp_war_exploded/user/list
+Tempo de processamento: 19 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 1 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 599 ms
+URI:/training_jsp_war_exploded/user/edit
+Tempo de processamento: 521 ms
+URI:/training_jsp_war_exploded/user/save
+Tempo de processamento: 9 ms
+URI:/training_jsp_war_exploded/user/list
+Tempo de processamento: 772 ms
+URI:/training_jsp_war_exploded/user/edit
+Tempo de processamento: 29 ms
+URI:/training_jsp_war_exploded/user/save
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/user/list
+Tempo de processamento: 10 ms
+URI:/training_jsp_war_exploded/user/edit
+Tempo de processamento: 9 ms
+URI:/training_jsp_war_exploded/user/save
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/user/list
+Tempo de processamento: 18 ms
+URI:/training_jsp_war_exploded/user/list
+Tempo de processamento: 693 ms
+URI:/training_jsp_war_exploded/user/edit
+Tempo de processamento: 7 ms
+URI:/training_jsp_war_exploded/user/save
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/user/list
+Tempo de processamento: 8 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 2 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 552 ms
+URI:/training_jsp_war_exploded/user/edit
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 784 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 573 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 443 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 21 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 2 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 2 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 551 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 454 ms
+URI:/training_jsp_war_exploded/user/edit
+Tempo de processamento: 333 ms
+URI:/training_jsp_war_exploded/user/save
+Tempo de processamento: 4 ms
+URI:/training_jsp_war_exploded/user/list
+Tempo de processamento: 524 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 2 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 1227 ms
+URI:/training_jsp_war_exploded/user/edit
+Tempo de processamento: 1535 ms
+URI:/training_jsp_war_exploded/user/save
+Tempo de processamento: 13 ms
+URI:/training_jsp_war_exploded/user/list
+Tempo de processamento: 1703 ms
+URI:/training_jsp_war_exploded/user/exclude
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/user/list
+Tempo de processamento: 16 ms
+URI:/training_jsp_war_exploded/user/edit
+Tempo de processamento: 9 ms
+URI:/training_jsp_war_exploded/user/save
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/user/list
+Tempo de processamento: 10 ms
+URI:/training_jsp_war_exploded/user/edit
+Tempo de processamento: 5 ms
+URI:/training_jsp_war_exploded/user/save
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/user/list
+Tempo de processamento: 8 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 4 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 765 ms
+URI:/training_jsp_war_exploded/user/edit
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 583 ms
+URI:/training_jsp_war_exploded/adm/user/edit
+Tempo de processamento: 548 ms
+URI:/training_jsp_war_exploded/adm/user/save
+Tempo de processamento: 12 ms
+URI:/training_jsp_war_exploded/user/list
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 504 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 586 ms
+URI:/training_jsp_war_exploded/sec/user/edit
+Tempo de processamento: 1295 ms
+URI:/training_jsp_war_exploded/sec/user/save
+Tempo de processamento: 16 ms
+URI:/training_jsp_war_exploded/user/list
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 12 ms
+URI:/training_jsp_war_exploded/sec/user/edit
+Tempo de processamento: 12 ms
+URI:/training_jsp_war_exploded/sec/user/save
+Tempo de processamento: 4 ms
+URI:/training_jsp_war_exploded/sec/user/list
+Tempo de processamento: 911 ms
+URI:/training_jsp_war_exploded/adm/user/exclude
+Tempo de processamento: 4 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 8 ms
+URI:/training_jsp_war_exploded/sec/user/edit
+Tempo de processamento: 4 ms
+URI:/training_jsp_war_exploded/sec/user/save
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/sec/user/list
+Tempo de processamento: 528 ms
+URI:/training_jsp_war_exploded/sec/user/exclude
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/sec/user/list
+Tempo de processamento: 3 ms
+URI:/training_jsp_war_exploded/sec/user/edit
+Tempo de processamento: 12 ms
+URI:/training_jsp_war_exploded/sec/user/save
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/sec/user/list
+Tempo de processamento: 8 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 12 ms
+URI:/training_jsp_war_exploded/agenda-edit
+Tempo de processamento: 348 ms
+URI:/training_jsp_war_exploded/agenda-save
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/agenda-list
+Tempo de processamento: 431 ms
+URI:/training_jsp_war_exploded/agenda-exluir
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/agenda-list
+Tempo de processamento: 4 ms
+URI:/training_jsp_war_exploded/agenda-exluir
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/agenda-list
+Tempo de processamento: 4 ms
+URI:/training_jsp_war_exploded/agenda-exluir
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/agenda-list
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 8 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 2304 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 575 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/user/login
+Tempo de processamento: 10234 ms
+URI:/training_jsp_war_exploded/user/login
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 309 ms
+URI:/training_jsp_war_exploded/user/login
+Tempo de processamento: 5266 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/user/login
+Tempo de processamento: 5092 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/user/login
+Tempo de processamento: 3962 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 386 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 4 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 478 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 1 ms
+URI:/training_jsp_war_exploded/user/login
+Tempo de processamento: 4630 ms
+URI:/training_jsp_war_exploded/user/login
+Tempo de processamento: 1 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 301 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 1 ms
+URI:/training_jsp_war_exploded/user/login
+Tempo de processamento: 13242 ms
+URI:/training_jsp_war_exploded/user/login
+Tempo de processamento: 18722 ms
+URI:/training_jsp_war_exploded/user/login
+Tempo de processamento: 2587 ms
+URI:/training_jsp_war_exploded/user/login
+Tempo de processamento: 2083 ms
+URI:/training_jsp_war_exploded/user/login
+Tempo de processamento: 2343 ms
+URI:/training_jsp_war_exploded/user/login
+Tempo de processamento: 36850 ms
+URI:/training_jsp_war_exploded/user/login
+Tempo de processamento: 565 ms
+URI:/training_jsp_war_exploded/user/login
+Tempo de processamento: 8 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 2367 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 1 ms
+URI:/training_jsp_war_exploded/user/login
+Tempo de processamento: 9969 ms
+URI:/training_jsp_war_exploded/user/login
+Tempo de processamento: 1 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 64970 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 5795 ms
+URI:/training_jsp_war_exploded/user/login
+Tempo de processamento: 81053 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 5483 ms
+URI:/training_jsp_war_exploded/user/login
+Tempo de processamento: 1 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 11 ms
+URI:/training_jsp_war_exploded/user/login
+Tempo de processamento: 2 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 5 ms
+URI:/training_jsp_war_exploded/user/login
+Tempo de processamento: 2 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 2807 ms
+URI:/training_jsp_war_exploded/user/login
+Tempo de processamento: 40756 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 3504 ms
+URI:/training_jsp_war_exploded/user/login
+Tempo de processamento: 50730 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 498 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 8 ms
+URI:/training_jsp_war_exploded/user/login
+Tempo de processamento: 5716 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 7 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 3 ms
+URI:/training_jsp_war_exploded/user/login
+Tempo de processamento: 24296 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 10 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 14 ms
+URI:/training_jsp_war_exploded/user/login
+Tempo de processamento: 7407 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 5 ms
+URI:/training_jsp_war_exploded/sec/user/edit
+Tempo de processamento: 331 ms
+URI:/training_jsp_war_exploded/sec/user/save
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/sec/user/list
+Tempo de processamento: 830 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 6 ms
+URI:/training_jsp_war_exploded/user/login
+Tempo de processamento: 6268 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 5 ms
+URI:/training_jsp_war_exploded/sec/user/edit
+Tempo de processamento: 10 ms
+URI:/training_jsp_war_exploded/sec/user/edit
+Tempo de processamento: 12 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 4 ms
+URI:/training_jsp_war_exploded/user/login
+Tempo de processamento: 2 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 5 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 10 ms
+URI:/training_jsp_war_exploded/user/login
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 7 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 3 ms
+URI:/training_jsp_war_exploded/user/login
+Tempo de processamento: 1 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 8 ms
+URI:/training_jsp_war_exploded/sec/user/edit
+Tempo de processamento: 29 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 4 ms
+URI:/training_jsp_war_exploded/user/login
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 8 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 36 ms
+URI:/training_jsp_war_exploded/user/login
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 8 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 8 ms
+URI:/training_jsp_war_exploded/user/login
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/sec/user/edit
+Tempo de processamento: 80 ms
+URI:/training_jsp_war_exploded/sas
+Tempo de processamento: 8 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 8 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 3141 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/user/login
+Tempo de processamento: 32 ms
+URI:/training_jsp_war_exploded/user/login
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/user/login
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 438 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/user/login
+Tempo de processamento: 8 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 384 ms
+URI:/training_jsp_war_exploded/user/login
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/user/login
+Tempo de processamento: 8 ms
+URI:/training_jsp_war_exploded/user/login
+Tempo de processamento: 8 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 284 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 7 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 8 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 2523 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/user/login
+Tempo de processamento: 8 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 312 ms
+URI:/training_jsp_war_exploded/hello-servlet
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/agenda-edit
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 2 ms
+URI:/training_jsp_war_exploded/user/login
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 296 ms
+URI:/training_jsp_war_exploded/portal/hello-servlet
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/portal/agenda-edit
+Tempo de processamento: 16 ms
+URI:/training_jsp_war_exploded/portal/agenda-list
+Tempo de processamento: 612 ms
+URI:/training_jsp_war_exploded/portal/agenda-edit
+Tempo de processamento: 8 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 8 ms
+URI:/training_jsp_war_exploded/user/login
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 16 ms
+URI:/training_jsp_war_exploded/portal/agenda-edit
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 8 ms
+URI:/training_jsp_war_exploded/user/login
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 10 ms
+URI:/training_jsp_war_exploded/portal/agenda-edit
+Tempo de processamento: 8 ms
+URI:/training_jsp_war_exploded/portal/agenda-edit/
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/portal/agenda-list
+Tempo de processamento: 16 ms
+URI:/training_jsp_war_exploded/portal/agenda-edit
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/portal/agenda-list
+Tempo de processamento: 8 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 2603 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 8 ms
+URI:/training_jsp_war_exploded/user/login
+Tempo de processamento: 8 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 304 ms
+URI:/training_jsp_war_exploded/portal/agenda-edit
+Tempo de processamento: 24 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 10 ms
+URI:/training_jsp_war_exploded/user/login
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 6 ms
+URI:/training_jsp_war_exploded/portal/agenda-edit
+Tempo de processamento: 362 ms
+URI:/training_jsp_war_exploded/portal/portal/agenda-save
+Tempo de processamento: 2 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/user/login
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 8 ms
+URI:/training_jsp_war_exploded/portal/agenda-edit
+Tempo de processamento: 328 ms
+URI:/training_jsp_war_exploded/portal/agenda-save
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/portal/portal/agenda-list
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/user/login
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 8 ms
+URI:/training_jsp_war_exploded/portal/agenda-edit
+Tempo de processamento: 16 ms
+URI:/training_jsp_war_exploded/portal/agenda-save
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/portal/agenda-list
+Tempo de processamento: 658 ms
+URI:/training_jsp_war_exploded/portal/portal/agenda-edit
+Tempo de processamento: 8 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 8 ms
+URI:/training_jsp_war_exploded/user/login
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/portal/agenda-list
+Tempo de processamento: 392 ms
+URI:/training_jsp_war_exploded/portal/agenda-edit
+Tempo de processamento: 48 ms
+URI:/training_jsp_war_exploded/portal/agenda-save
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/portal/agenda-list
+Tempo de processamento: 16 ms
+URI:/training_jsp_war_exploded/portal/agenda-exluir
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/portal/agenda-list
+Tempo de processamento: 8 ms
+URI:/training_jsp_war_exploded/portal/agenda-exluir
+Tempo de processamento: 8 ms
+URI:/training_jsp_war_exploded/portal/agenda-list
+Tempo de processamento: 8 ms
+URI:/training_jsp_war_exploded/portal/portal/agenda-edit
+Tempo de processamento: 16 ms
+URI:/training_jsp_war_exploded/portal/portal/agenda-edit
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 8 ms
+URI:/training_jsp_war_exploded/user/login
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/portal/sec/user/edit
+Tempo de processamento: 304 ms
+URI:/training_jsp_war_exploded/portal/sec/user/save
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/portal/sec/user/save
+Tempo de processamento: 8 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 16 ms
+URI:/training_jsp_war_exploded/login.jsp
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 13 ms
+URI:/training_jsp_war_exploded/user/login
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/user/login
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/user/login
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 314 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 91318 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 240 ms
+URI:/training_jsp_war_exploded/portal/sec/user/edit
+Tempo de processamento: 24 ms
+URI:/training_jsp_war_exploded/portal/sec/user/save
+Tempo de processamento: 8 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 3341 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 442 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 11 ms
+URI:/training_jsp_war_exploded/user/login
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 8 ms
+URI:/training_jsp_war_exploded/portal/sec/user/edit
+Tempo de processamento: 352 ms
+URI:/training_jsp_war_exploded/portal/sec/user/save
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/portal/sec/user/list
+Tempo de processamento: 552 ms
+URI:/training_jsp_war_exploded/portal/sec/user/edit
+Tempo de processamento: 24 ms
+URI:/training_jsp_war_exploded/portal/sec/user/save
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/portal/sec/user/list
+Tempo de processamento: 16 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/user/login
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 8 ms
+URI:/training_jsp_war_exploded/portal/sec/user/edit
+Tempo de processamento: 24 ms
+URI:/training_jsp_war_exploded/portal/sec/user/edit
+Tempo de processamento: 16 ms
+URI:/training_jsp_war_exploded/portal/sec/user/edit
+Tempo de processamento: 16 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 2421 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/user/login
+Tempo de processamento: 24 ms
+URI:/training_jsp_war_exploded/user/login
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 504 ms
+URI:/training_jsp_war_exploded/portal/sec/user/edit
+Tempo de processamento: 476 ms
+URI:/training_jsp_war_exploded/portal/sec/user/save
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/portal/sec/user/list
+Tempo de processamento: 896 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/user/login
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 8 ms
+URI:/training_jsp_war_exploded/portal/sec/user/edit
+Tempo de processamento: 32 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 2383 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 8 ms
+URI:/training_jsp_war_exploded/user/login
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 489 ms
+URI:/training_jsp_war_exploded/portal/sec/user/edit
+Tempo de processamento: 397 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 2171 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/user/login
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 424 ms
+URI:/training_jsp_war_exploded/portal/sec/user/edit
+Tempo de processamento: 440 ms
+URI:/training_jsp_war_exploded/portal/sec/user/save
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/portal/sec/user/list
+Tempo de processamento: 634 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 3290 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/user/login
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 496 ms
+URI:/training_jsp_war_exploded/portal/sec/user/edit
+Tempo de processamento: 1192 ms
+URI:/training_jsp_war_exploded/portal/sec/user/save
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/portal/sec/user/list
+Tempo de processamento: 724 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/user/login
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 18 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 9 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 344 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 8 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/user/login
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/portal/agenda-edit
+Tempo de processamento: 382 ms
+URI:/training_jsp_war_exploded/portal/agenda-save
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/portal/agenda-list
+Tempo de processamento: 432 ms
+URI:/training_jsp_war_exploded/portal/agenda-exluir
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/portal/agenda-list
+Tempo de processamento: 8 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 8 ms
+URI:/training_jsp_war_exploded/user/login
+Tempo de processamento: 0 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 411 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 2753 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 1 ms
+URI:/training_jsp_war_exploded/
+Tempo de processamento: 7 ms
+URI:/training_jsp_war_exploded/user/login
+Tempo de processamento: 6 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 537 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 35 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 12 ms
+URI:/training_jsp_war_exploded/index.jsp
+Tempo de processamento: 16 ms

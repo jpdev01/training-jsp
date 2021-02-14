@@ -22,11 +22,11 @@ public class Users {
     }
 
     public Set<User> getUsers() {
-        Set<User> usuarios = new TreeSet<>();
         if (users != null && !users.isEmpty()){
+            Set<User> usuarios = new TreeSet<>();
             usuarios.addAll(users.values());
         }
-        return usuarios;
+        return null;
     }
 
     public void setUsers(HashMap<Integer, User> users) {
