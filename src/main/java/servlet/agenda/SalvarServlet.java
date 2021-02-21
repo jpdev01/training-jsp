@@ -1,5 +1,6 @@
 package servlet.agenda;
 
+import config.files.AppUtils;
 import model.Agenda;
 import model.Contato;
 
@@ -10,7 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(name = "agenda/salvar", value = "/agenda-save")
+@WebServlet(name = "agenda/salvar", value = "/portal/agenda-save")
 public class SalvarServlet extends HttpServlet {
 
     @Override
@@ -24,6 +25,6 @@ public class SalvarServlet extends HttpServlet {
         Agenda agenda = Agenda.getInstance();
         agenda.salvar(c);
 
-        resp.sendRedirect("agenda-list");
+        resp.sendRedirect(AppUtils.getInstance().getAppUrl() + "portal/agenda-list");
     }
 }

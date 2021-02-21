@@ -21,12 +21,8 @@ public class Users {
         Users.instance = instance;
     }
 
-    public Set<User> getUsers() {
-        if (users != null && !users.isEmpty()){
-            Set<User> usuarios = new TreeSet<>();
-            usuarios.addAll(users.values());
-        }
-        return null;
+    public Collection<User> getUsers() {
+        return users.values();
     }
 
     public void setUsers(HashMap<Integer, User> users) {
@@ -46,5 +42,21 @@ public class Users {
 
     public int size(){
         return users.size();
+    }
+
+    public void remove(int id){
+        users.remove(id);
+    }
+
+    public Integer getUserId(User userToGet){
+        if (users != null && !users.isEmpty()){
+            Collection<User> usuarios = getUsers();
+            for (User u : usuarios){
+                if (u == userToGet){
+                    return u.getId();
+                }
+            }
+        }
+        return null;
     }
 }

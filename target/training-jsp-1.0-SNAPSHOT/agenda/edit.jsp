@@ -1,4 +1,4 @@
-
+<%@ page import="config.files.AppUtils" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
@@ -6,7 +6,7 @@
     <title>Editar contato</title>
 </head>
 <body>
-<form action="agenda-save" method="post">
+<form action="<%= AppUtils.getInstance().getAppUrl()%>portal/agenda-save" method="post">
     <c:if test="${contato.id != null}">
         <input type="hidden" name="id" value="${contato.id}">
     </c:if>

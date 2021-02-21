@@ -12,7 +12,7 @@
     <title>Usuário</title>
 </head>
 <body>
-<form method="post" action="<%=application.getInitParameter("ApplicationUrl")%>user/save">
+<form method="post" action="<%=application.getInitParameter("ApplicationUrl")%>portal/sec/user/save">
     <c:if test="${user.id != null}">
         <input name="id" value="${user.id}" hidden>
     </c:if>

@@ -12,7 +12,7 @@
     <title>Usuários</title>
 </head>
 <body>
-<c:url var="newUser" value="${AppUtils.getInstance().getAppUrl()}user/edit"></c:url>
+<c:url var="newUser" value="${AppUtils.getInstance().getAppUrl()}portal/sec/user/edit"></c:url>
 
 <a href="${newUser}">Adicionar novo usuário</a>
 
@@ -32,18 +32,18 @@
     </c:when>
     <c:otherwise>
         <c:forEach var="user" items="${users}">
-            <c:url var="edit" value="${AppUtils.getInstance().getAppUrl()}user/edit">
-                <c:param name="id" value="user.id"></c:param>
+            <c:url var="edit" value="${AppUtils.getInstance().getAppUrl()}portal/sec/user/edit">
+                <c:param name="id" value="${user.id}"></c:param>
             </c:url>
-            <c:url var="exclude" value="${AppUtils.getInstance().getAppUrl()}user/exclude">
-                <c:param name="id" value="user.id"></c:param>
+            <c:url var="exclude" value="${AppUtils.getInstance().getAppUrl()}portal/sec/user/exclude">
+                <c:param name="id" value="${user.id}"></c:param>
             </c:url>
             <tr>
                 <td>${user.login}</td>
-                <td>${user.login}</td>
                 <td>${user.password}</td>
-                <td>${edit}</td>
-                <td>${exclude}</td>
+                <td>${user.permissao}</td>
+                <td><a href="${edit}">Editar</a></td>
+                <td><a href="${exclude}">Excluir</a></td>
             </tr>
         </c:forEach>
     </c:otherwise>

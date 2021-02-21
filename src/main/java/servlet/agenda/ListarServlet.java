@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.Set;
 
-@WebServlet(name = "agenda", value = "/agenda-list")
+@WebServlet(name = "agenda", value = "/portal/agenda-list")
 public class ListarServlet extends HttpServlet {
 
 

@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(name="editarUsuario", value="/user/edit")
+@WebServlet(name="editarUsuario", value="/portal/sec/user/edit")
 public class Edit extends HttpServlet {
 
     @Override

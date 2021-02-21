@@ -1,5 +1,6 @@
 <%@ page import="model.Contato" %>
-<%@ page import="java.util.Set" %><%--
+<%@ page import="java.util.Set" %>
+<%@ page import="config.files.AppUtils" %><%--
   Created by IntelliJ IDEA.
   User: jptru
   Date: 20/01/2021
@@ -13,7 +14,7 @@
     <title>Agenda</title>
 </head>
 <body>
-<c:url var="novoContato" value="agenda-edit"></c:url>
+<c:url var="novoContato" value="${AppUtils.getInstance().getAppUrl()}portal/agenda-edit"></c:url>
 
 <a href="${novoContato}">Adicionar novo contato</a>
 
@@ -32,11 +33,11 @@
         </c:when>
         <c:otherwise>
             <c:forEach var="c" items="${contatos}">
-                <c:url var="editarContatoUrl" value="agenda-edit">
+                <c:url var="editarContatoUrl" value="${AppUtils.getInstance().getAppUrl()}portal/agenda-edit">
                     <c:param name="id" value="${c.id}"></c:param>
                 </c:url>
 
-                <c:url var="excluirContatoUrl" value="agenda-exluir">
+                <c:url var="excluirContatoUrl" value="${AppUtils.getInstance().getAppUrl()}portal/agenda-exluir">
                     <c:param name="id" value="${c.id}"></c:param>
                 </c:url>
                 <tr>
